@@ -1,0 +1,114 @@
+html {
+  min-height: 100%;
+}
+
+body {
+  text-align: center;
+  /*border: 1px solid blue;*/
+}
+
+.icon {
+  margin: 2em;
+  float: left;
+  position: fixed;
+  padding: 0;
+  width: 100px;
+  height: 100px;
+  border-radius: 500em;
+  background-image: url(../img/spidey.jpeg);
+  background-position: 70% 70%;
+  background-repeat:no-repeat;
+}
+ 
+.main-container {
+  height: 100%;
+  max-width: 1000px;
+  min-width: 670px;
+  width: 90%;
+  padding: 5% 0;
+  margin: 0 auto;
+  /*border: 1px solid green;*/
+  font-family: 'Raleway', helvetica, arial, sans-serif;
+  /*background-color: #3eb489;*/
+  /*color: #FFF;*/
+}
+
+nav {
+  list-style-type: none;
+  padding: 1%;
+  margin: 0 auto;
+  top: 0;
+}
+
+nav li {
+  display: inline;
+}
+
+nav li a {
+  text-decoration: none;
+  padding: 1em;
+  margin: 2em;
+  /*background-color: #2a7b5e;
+  color: white;*/
+}
+
+#intro {
+  display:block;
+  /*border: 1px solid black;*/
+  /*background-color: #3eb489;*/
+  height: 25%;
+  padding: 10% 0;
+  /*font-family: 'Life Savers', helvetica, arial, sans-serif;*/
+  font-family: 'Marvel', helvetica, arial, sans-serif;
+}
+
+
+#intro h1 {
+  font-size: 5em;
+}
+
+#intro p {
+  font-size: 2.5em;
+}
+
+#about {
+  padding: 2em;
+  margin: 2em;
+  /*border: 1px solid red;*/
+  padding: 10% 0;
+  color: #000;
+  height: 25%;
+}
+
+#about p {
+  line-height: 1.5em;
+}
+
+#projects {
+  color: #000;
+  border: 2px solid;
+  padding: 5%;
+}
+
+#projects ul {
+  border: 1px solid #858585;
+}
+
+#projects li {
+  display:block;
+  border: 1px solid #858585;
+  padding: 5%;
+}
+
+#projects li img {
+  width: 10%;
+  height: 10%;
+  margin: 5%;
+  border: 1px solid purple;
+}
+
+footer {
+  border: 1px solid;
+  padding: 20%;
+  background-color: #ba1f25;
+}
