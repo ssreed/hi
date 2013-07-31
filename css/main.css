@@ -130,8 +130,9 @@ body {
 
 #projects li {
   /*border: 1px solid #858585;*/
-  border-bottom: 1px solid #858585;
+  border-bottom: 1px solid rgba(133, 133, 133, 0.5);
   padding: 5%;
+  margin-bottom: 5%;
 }
 
 #projects li img {
@@ -144,6 +145,7 @@ body {
 
 #projects h2 {
   font-weight: 900;
+  font-size: 1.5em;
 }
 
 footer {
