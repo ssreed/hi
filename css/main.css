@@ -136,11 +136,13 @@ body {
 }
 
 #projects li img {
-  /*display: block;*/
   width: 40%;
-  height: 10%;
+  height: 20%;
   margin: 5%;
-  /*border: 1px solid purple;*/
+  border-radius: 5px;
+  -webkit-box-shadow: 5px 4px 3px #ccc;
+  -moz-box-shadow: 5px 4px 3px #ccc;
+  box-shadow: 5px 4px 3px #ccc;
 }
 
 #projects h2 {
