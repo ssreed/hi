@@ -14,11 +14,6 @@ $(function(){
     }
 
     Hi.prototype.menu = function() {
-
-        app.icon.on('mouseover', function(){
-            
-        });
-
         app.window.on('scroll', function(){
             if(app.window.scrollTop() > app.offset) {
                 app.navigation.addClass('stuck');
@@ -27,16 +22,6 @@ $(function(){
             }
         });
     }
-
-
-    // Hi.prototype.hideDiv = function() {
-    //     console.log(app.window.width());
-    //     if(app.window.width() < 800) {
-    //         app.icon.hide();
-    //     } else {
-    //         app.icon.show();
-    //     }
-    // }
 
     var app = new Hi();
         app.init();
