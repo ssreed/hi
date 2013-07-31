@@ -145,6 +145,10 @@ body {
   box-shadow: 5px 4px 3px #ccc;
 }
 
+#projects li img:hover {
+  opacity: 0.75;
+}
+
 #projects h2 {
   font-weight: 900;
   font-size: 1.5em;
