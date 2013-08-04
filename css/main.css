@@ -65,6 +65,14 @@ body {
   opacity: 0.8;
 }
 
+.main-navigation li:hover {
+  /*background: rgb(54, 25, 25);
+  background: rgba(54, 25, 25, .2);*/
+  background: rgb(255,255,0);
+  background: rgba(255,255,0, 0.3);
+  background-size: 2;
+}
+
 .stuck {
   position: fixed;
   max-width: 100%;
@@ -123,7 +131,7 @@ body {
   /*border: 1px solid #858585;*/
   border-bottom: 1px solid rgba(133, 133, 133, 0.5);
   padding: 5%;
-  margin-bottom: 5%;
+  margin-bottom: 2%;
 }
 
 #projects li img {
@@ -147,7 +155,12 @@ body {
   font-size: 1.5em;
 }
 
+#projects li:last-child {
+  margin-bottom: 0;
+}
+
 footer {
-  border: 1px solid;
-  padding: 20%;
+  /*border: 1px solid;*/
+  /*padding: 20%;*/
+  margin: 0;
 }
