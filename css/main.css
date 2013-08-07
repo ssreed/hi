@@ -65,12 +65,13 @@ body {
   opacity: 0.8;
 }
 
-.main-navigation li:hover {
+.main-navigation li a:hover {
   /*background: rgb(54, 25, 25);
   background: rgba(54, 25, 25, .2);*/
-  background: rgb(255,255,0);
+  color: rgb(0,0,0);
   /*background: rgba(255,255,0, 0.3);*/
   background-size: 2;
+
 }
 
 .stuck {
@@ -82,11 +83,16 @@ body {
   z-index: 99;
   border: 1px solid rgba(255, 245, 208, 1);
   /*background: #fff5d0;*/
-  background: rgba(255, 245, 208, 0.7);
+  /*background: rgba(255, 245, 208, 0.7);*/
+  background: #333;
 }
 
 .stuck ul {
   margin: 1em;
+}
+
+.stuck ul li a{
+  color: white;
 }
 
 #intro {
