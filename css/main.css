@@ -2,7 +2,6 @@ html {
   min-height: 100%;
 }
 
-
 body {
   text-align: center;
   /*border: 1px solid blue;*/
@@ -81,7 +80,7 @@ body {
   left: 0;
   right: 0;
   z-index: 99;
-  border: 1px solid rgba(255, 245, 208, 1);
+ /* border: 1px solid rgba(255, 245, 208, 1);*/
   /*background: #fff5d0;*/
   /*background: rgba(255, 245, 208, 0.7);*/
   background: #333;
@@ -101,6 +100,8 @@ body {
   margin: 5% 0;
   padding: 5% 0;
   font-family: 'Marvel', helvetica, arial, sans-serif;
+  /*background-image: url(https://s3.amazonaws.com/ooomf-com-files/AVg15CB3ST94GSA6O5vI_IMG_2754.jpg);
+  opacity: 0.4;*/
 }
 
 
