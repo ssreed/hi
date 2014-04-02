@@ -11,7 +11,7 @@ $(function(){
     Hi.prototype.init = function() {
         console.log('App initialized!');
         app.menu();
-    }
+    };
 
     Hi.prototype.menu = function() {
         app.window.on('scroll', function(){
@@ -21,7 +21,7 @@ $(function(){
                 app.navigation.removeClass('stuck');
             }
         });
-    }
+    };
 
     var app = new Hi();
         app.init();

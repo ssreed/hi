@@ -4,38 +4,16 @@ html {
 
 body {
   text-align: center;
-  /*border: 1px solid blue;*/
 }
 
-.icon {
-  display: block;
-  margin: 1em 3em;
-  float: left;
-  position: fixed;
-  padding: 0;
-  width: 40px;
-  height: 40px;
-  border-radius: 500em;
-  background-image: url(../img/spidey.jpeg);
-  background-position: 70% 70%; /*the part of the image to show*/
-  background-repeat:no-repeat;
-  z-index: 100;
-  transition: all 1s ease-in-out;
+a {
+    text-decoration: none;
 }
 
-@media (max-width: 800px) {
-  .icon {
-    display: none;
-  }
+img {
+    max-width: 100%;
 }
 
-.icon:hover {
-    -moz-transform:rotate(180deg);
-    -webkit-transform:rotate(180deg);
-    -o-transform:rotate(180deg);
-    transform:rotate(180deg);
-}
- 
 .main-container {
   height: 100%;
   max-width: 1000px;
@@ -44,11 +22,12 @@ body {
   padding: 5% 0;
   margin: 0 auto;
   font-family: 'Raleway', helvetica, arial, sans-serif;
+  position: relative;
 }
 
 .main-navigation {
   list-style-type: none;
-  padding: 1%;
+  /*padding: 1%;*/
   margin: 0 auto;
   top: 0;
 }
@@ -60,29 +39,21 @@ body {
 .main-navigation li a {
   text-decoration: none;
   padding: 1em;
-  margin: 2em;
+  margin: 3em;
   opacity: 0.8;
 }
 
 .main-navigation li a:hover {
-  /*background: rgb(54, 25, 25);
-  background: rgba(54, 25, 25, .2);*/
   color: rgb(0,0,0);
-  /*background: rgba(255,255,0, 0.3);*/
-  background-size: 2;
-
 }
 
 .stuck {
   position: fixed;
   max-width: 100%;
-  height: 2em;
+  height: 3em;
   left: 0;
   right: 0;
   z-index: 99;
- /* border: 1px solid rgba(255, 245, 208, 1);*/
-  /*background: #fff5d0;*/
-  /*background: rgba(255, 245, 208, 0.7);*/
   background: #333;
 }
 
@@ -99,31 +70,14 @@ body {
   height: 25%;
   margin: 5% 0;
   padding: 5% 0;
-  font-family: 'Marvel', helvetica, arial, sans-serif;
-  /*background-image: url(https://s3.amazonaws.com/ooomf-com-files/AVg15CB3ST94GSA6O5vI_IMG_2754.jpg);
-  opacity: 0.4;*/
+  font-family: 'Muli', helvetica, arial, sans-serif;
+  font-weight: 300;
 }
 
 
 #intro h1 {
-  font-size: 5em;
+  font-size: 3.5em;
 }
-
-#intro p {
-  font-size: 2.5em;
-}
-
-/*#about {
-  padding: 2em;
-  margin: 2em;
-  padding: 10% 0;
-  color: #000;
-  height: 25%;
-}
-
-#about p {
-  line-height: 1.5em;
-}*/
 
 #projects {
   color: #000;
